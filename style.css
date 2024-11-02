@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #b42020;
+    
+}
+section {
+    margin: 20px auto;
+    max-width: 300px;
+    color:#b42020;
+
+}
+
+input {
+
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+
+}
+
+button {
+    padding: 10px;
+    background-color: #b42020;
+    color: white;
+    border:solid 2px#ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color:#b42020;
+    background-color: #ffffff;
+    border:solid 2px#b42020;
+}

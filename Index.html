@@ -1,8 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Reverse|Palindrome|Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
-  <body>
-
-    
-  </body>
+<body>
+    <h1>String Reverse Palindrome Checker Tip Calculator</h1>
+    <div>
+      <section id="reverse">
+        <h2>Reverse a String</h2>
+        <input type="text" id="stringInput" placeholder="Enter a string">
+        <button onclick="reverseString()">Reverse String</button>
+        <p id="reverseResult"></p>
+      </section>
+      <section id="palindrome">
+        <h2>Palindrome Checker</h2>
+        <input type="text" id="numberInput" placeholder="Enter a series of numbers">
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <p id="palindromeResult"></p>
+      </section>
+      <section id="tipCalculator">
+        <h2>Tip Calculator</h2>
+        <input type="number" id="billSubtotal" placeholder="Subtotal of Bill">
+        <input type="number" id="tipPercentage" placeholder="Tip Percentage">
+        <button onclick="calculateTip()">Calculate Total</button>
+        <p id="tipResult"></p>
+      </section>
+    </div>
+</body>
 </html>
